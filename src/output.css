@@ -182,12 +182,6 @@
   .end {
     inset-inline-end: var(--spacing);
   }
-  .top-0 {
-    top: calc(var(--spacing) * 0);
-  }
-  .left-0 {
-    left: calc(var(--spacing) * 0);
-  }
   .container {
     width: 100%;
     @media (width >= 576px) {
@@ -241,9 +235,6 @@
   }
   .mt-25 {
     margin-top: calc(var(--spacing) * 25);
-  }
-  .mt-\[10px\] {
-    margin-top: 10px;
   }
   .mb-2\.5 {
     margin-bottom: calc(var(--spacing) * 2.5);
@@ -380,6 +371,9 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\'\/image\/Background\.png\'\)\] {
+    background-image: url('/image/Background.png');
+  }
   .bg-\[url\(\/image\/Background\.png\)\] {
     background-image: url(/image/Background.png);
   }
@@ -419,9 +413,6 @@
   .text-center {
     text-align: center;
   }
-  .text-\[4\.125rem\] {
-    font-size: 4.125rem;
-  }
   .text-\[18px\] {
     font-size: 18px;
   }
@@ -446,15 +437,8 @@
   .text-\[56px\] {
     font-size: 56px;
   }
-  .text-\[66px\] {
-    font-size: 66px;
-  }
   .text-\[70px\] {
     font-size: 70px;
-  }
-  .leading-0 {
-    --tw-leading: calc(var(--spacing) * 0);
-    line-height: calc(var(--spacing) * 0);
   }
   .leading-7 {
     --tw-leading: calc(var(--spacing) * 7);
@@ -468,27 +452,12 @@
     --tw-leading: calc(var(--spacing) * 11);
     line-height: calc(var(--spacing) * 11);
   }
-  .leading-24 {
-    --tw-leading: calc(var(--spacing) * 24);
-    line-height: calc(var(--spacing) * 24);
-  }
-  .leading-\[44\] {
-    --tw-leading: 44;
-    line-height: 44;
-  }
-  .leading-\[44px\] {
-    --tw-leading: 44px;
-    line-height: 44px;
-  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
   .text-\[\#ffffff86\] {
     color: #ffffff86;
-  }
-  .text-\[4\.125\] {
-    color: 4.125;
   }
   .text-black {
     color: var(--color-black);
@@ -568,11 +537,6 @@
       margin-top: calc(var(--spacing) * 0);
     }
   }
-  .lg\:block {
-    @media (width >= 992px) {
-      display: block;
-    }
-  }
   .lg\:flex {
     @media (width >= 992px) {
       display: flex;
@@ -581,11 +545,6 @@
   .lg\:hidden {
     @media (width >= 992px) {
       display: none;
-    }
-  }
-  .lg\:pt-18 {
-    @media (width >= 992px) {
-      padding-top: calc(var(--spacing) * 18);
     }
   }
   .lg\:text-\[4\.125rem\] {
